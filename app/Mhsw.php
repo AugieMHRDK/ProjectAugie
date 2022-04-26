@@ -1,9 +1,7 @@
 <?php
 class Mhsw {
 	private $db;
-	 public string $nim;
-	 public string $nama;
-	 public string $alamat;
+	 public string $nim, $nama, $alamat;
 
 	 public function setNim(string $nim) {
 	 	return $nim;
